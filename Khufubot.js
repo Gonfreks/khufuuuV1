@@ -1575,7 +1575,7 @@ if (isBanChat) return reply(mess.banChat)
             if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) return replay(`You Are Still In The Game`)
             let room = Object.values(this.game).find(room => room.state === 'WAITING' && (text ? room.name === text : true))
             if (room) {
-            reply('العبه بدات 🌚❤')
+            reply('اللعبه بدات 🌚❤')
             room.o = m.chat
             room.game.playerO = m.sender
             room.state = 'PLAYING'
@@ -2051,7 +2051,7 @@ case 'dare': case 'حكم':
 	if (isBanChat) return reply(mess.banChat)
               const dare =[
     "غني ف نص بار اغنيه ركبني مرجيحه😂❤",
-    "روح قول ل كراش كسمك و ابعت اسكرين 🤓",
+    "روح قول ل كراش ياكلبه و ابعت اسكرين 🤓",
     "ابعت بوسه ل اكتر حد بتحبو ف بار 🌚❤",
     "صور نفسك ونت بتشقلب علي الارض 🤓❤",
     "اعمل منشن ع حد بتكرهو ف روم 😈❤",
@@ -8723,7 +8723,7 @@ khufuBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
         	{ urlButton: { displayText: `قناتي 🍒`, url : `${websitex}` } },
-            { urlButton: { displayText: `قناه اوزكس 🌚`, url: `${botscript}` } },
+            { urlButton: { displayText: `قناه غون 🌚`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `اوامر 😜`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `القائمه❤`, id: 'command'} },
             { quickReplyButton: { displayText: `المالك🤣`, id: 'owner'} }
@@ -8753,101 +8753,101 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "bot khufu ❤️",
+								"title": "bot Gon ❤️",
 								"rows": [
 									{
 										"title": "اوامر كلها×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}allmenu`
 									},
 									{
 										"title": "اوامر المالك ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
 										"title": "اوامر جروب ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
 										"title": "اوامر لوجو ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}makermenu`
 									},
 									{
 										"title": "اوامر اغاني ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
 										"title": "اوامر تحمل ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
 										"title": "اوامر ال استيكر×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}stickermenu`
 									},
 									{
 										"title": "اوامر البحث ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
 										"title": "اعدادات اوامر×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}toolmenu`
 									},
 									{
 										"title": "اوامر صور ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}randomimagemenu`
 									},
 									{
 										"title": "تعديل علي صور ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description":"ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
 											"title": "اوامر ال انمي ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}animemenu`
 										},
 										{
 											"title": "اوامر ايمو ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
 										"title": "نمي استيكر ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
 										"title": "شكس انمي ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
 											"title": "حجات مسليه ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}funmenu`
 										},
 										{
 										"title": "العاب ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}indomenu`
 									},
 										{
 											"title": "اوامر صوت و استيكر ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
 											"title": "اوامر جروب بل عربي ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}group11`
 										}
 								]
@@ -8857,7 +8857,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "كلم شخص غريب",
-										"description": " ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": " ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
@@ -8867,7 +8867,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "شكرا ل ️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×!",
+										"description": "ᎬᏞᏃ3ᎬᎷ ᎶᏫᏁ ×፝֟͜×!",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -10490,27 +10490,23 @@ case 'tqtt':
 	if (isBanChat) return reply(mess.banChat)
 reply(`شكرا لي استخدامك البوت  نتمني ان يكون البوت نال اعجابك ونتمني ان تشاركنا رايك حول البوت ونرجو الاشتراك في قنواتنا علي اليوتيوب والتواصل معانا في حاله حدوث اي مشاكل .  
 
- 
 
-رقم اوزكس للتواصل واتس اب :  
+رقم الزعيم للتواصل واتس اب  :  
 
- https://wa.me/+201027844506
+ https://wa.me/+201146121794
 
-رقم خوفو للتواصل واتس اب :  
+رقم البوت لو عاوز تجربه : 
 
- https://wa.me/+201121968769
+ https://wa.me/+201151741541
 
-قناه اوزكس يوتيوب :  
+قناتي ع اليوتيوب  :  
 
- https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ
+https://youtube.com/@MR_ThomasFF
 
-قناه خوفو يوتيوب :  
-
- https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA
 
 جروب لتجربه البوت و حل اي مشكله تظهر معاك في البوت ومساعدتك علي فهم البوت :  
 
-https://chat.whatsapp.com/F4dGv48uhUc0pQoZb58jiB 
+https://chat.whatsapp.com/HgFwqqDUiQh66hmehZPCRw
 
  نتمني ان تكون اشتركت في قناتنا وانضممت لنا في جروب الواتس اب وشكرا💗`)
 break
